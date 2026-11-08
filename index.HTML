@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="JAVI">
+    <meta name="description" content="prueba con APIS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/maquinariaFinal.css">
+    <title>TIKET DE COMPRA</title>
+ </head>
+ <body>
+    <header>
+      <div class="uno"><img src="imagenes/logo.jpg"></div>
+      <div class="dos">
+         <h1>MERCADITO BATAN</h1>
+         <nav>
+          <ul>
+            <li>C/ Villagarcia Nº 2.</li>
+            <li> Madrid 28011</li>
+            <li>Whatsapp : 625123556</li>
+            <li>mercaditobatan97@gmail.com</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="tres"><img src="imagenes/logo0.jpg"></div>
+    </header>
+ <div class="inicioSesion">   
+  <section id="registro" class="seccion">
+    <h2>Crear cuenta</h2>
+
+    <form id="formularioRegistro">
+        <label for="nombreUsuario">Nombre:</label>
+        <input type="text" id="nombreUsuario" required>
+
+        <label for="emailUsuario">Correo electrónico:</label>
+        <input type="email" id="emailUsuario" required>
+
+        <label for="telefonoUsuario">Teléfono:</label>
+        <input type="tel" id="telefonoUsuario" required>
+
+        <label for="passwordUsuario">Contraseña:</label>
+        <input type="password" id="passwordUsuario" required>
+        <button type="button" id="mostrarContrasena" class="botonVerPass">👁</button>
+
+        <button type="submit">Registrarse</button>
+    </form>
+
+    <p id="mensajeRegistro"></p>
+  </section>
+  <div id="spinner"></div>
+  <section id="inicioSesion" class="seccion">
+    <h2 id="hache2">Iniciar sesión</h2>
+
+    <form id="formularioLogin">
+        <label for="emailLogin">Correo electrónico:</label>
+        <input type="email" id="emailLogin" required>
+
+        <label for="passwordLogin">Contraseña:</label>
+        <input type="password" id="passwordLogin" required>
+        <button type="button" id="mostrarContrasenaLogin" class="botonVerPass">👁</button>
+
+        <button type="submit">Iniciar sesión</button>
+    </form>
+    <button type="button" id="cerrarSesion" class="botonCerrarSesion">Cerrar sesión</button>
+    <p id="mensajeLogin"></p>
+    <p id="puntos" class="puntitos" style="display:none"></p>
+    <p id="usuarioConectado" style="display:none"></p> 
+  </section>
+  
+  <section id="panelAdministrador" class="seccionPedido" style="display: none;">
+    <h2 id="tituloPedidos" > Mis pedidos</h2>
+
+    <div id="listaPedidos" class="listaPedidos"></div>
+  </section>
+ </div>   
+ <main>
+      <div id="principal" class="principal">
+        <div id = "salida" class="salida"></div>
+        <div id="salidaCarrito"></div> 
+      </div>
+            
+ </main>
+ <footer>@ JAVI</footer>
+ <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+ <script src="js/maquinariaFinal.js"></script>
+ </body>
+</html>
