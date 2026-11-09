@@ -265,7 +265,7 @@ li {font-size: 1.5vw;}
     .inicioSesion {flex-direction: column;}
     .botonCerrarSesion { top: 24%;right: 4%;}
     form {display:flex;flex-direction: column;justify-content: center;align-items: center;}
-    h1 {font-weight: 10px;
+    h1 {font-size: 10px;
                         }
               
 @media print {
