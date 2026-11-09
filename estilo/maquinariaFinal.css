@@ -263,7 +263,8 @@ li {font-size: 1.5vw;}
     .resultadoFinalImprimir {flex: 1;display: grid;grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); gap: 5px;}
     .resultadoFinalError {height: 100%;max-height: 70px;} 
     .inicioSesion {flex-direction: column;}
-    .botonCerrarSesion { top: 60%;right: 2%;}
+    .botonCerrarSesion { top: 24%;right: 4%;}
+    form {display:flex;flex-direction: column;justify-content: center;align-items: center;}
                         }
               
 @media print {
