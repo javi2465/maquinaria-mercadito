@@ -418,7 +418,7 @@ let productos = [
     {id: "16",nombre: "Arcon Congelador2",imagen: "imagenes/arcon2.jpg",precioMin: "200",precioMax: "300", stock: 1},
     {id: "17",nombre: "Jamonero",imagen: "imagenes/jamonero.jpg",precioMin: "35",precioMax: "50", stock: 1},
     {id: "18",nombre: "Mesa de Acero Inoxidable1",imagen: "imagenes/mesaAcero1.jpg",precioMIn: "150",precioMax: "200", stock: 2},
-    {id: "19",nombre: "Mesa de Acero Inoxidable2 ",imagen: "imagenes/mesaAcero2.jpg",precioMIn: "150",precioMax: "200", stock: 0},
+    {id: "19",nombre: "Mesa de Acero Inoxidable2 ",imagen: "imagenes/mesaAcero2.jpg",precioMIn: "150",precioMax: "200", stock: 1},
     {id: "20",nombre: "Mesa de Acero Inoxidable3 ",imagen: "imagenes/mesaAcero3.jpg",precioMIn: "150",precioMax: "200", stock: 1},
     {id: "21",nombre: "Mesa de Acero Inoxidable4 ",imagen: "imagenes/mesaAcero4.jpg",precioMIn: "150",precioMax: "200", stock: 3},
     {id: "22",nombre: "Mesa de Corte1 ",imagen: "imagenes/mesaCortePeq.jpg",precioMIn: "100",precioMax: "150", stock: 1},
