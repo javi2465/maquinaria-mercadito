@@ -408,7 +408,7 @@ let productos = [
     {id: "6",nombre: "Envasadora de Vacio",imagen: "imagenes/envasadora2.jpg",precioMIn: "300",precioMax: "400", stock: 1},
     {id: "7",nombre: "Mueble Expositor",imagen: "imagenes/expositor.jpg",precioMin: "200",precioMax: "400", stock: 1},
     {id: "8",nombre: "Focos Led",imagen: "imagenes/foco.jpg",precioMIn: "100",precioMax: "150", stock: 5},
-    {id: "9",nombre: "Horno Electrico SALVA",imagen: "imagenes/horno.jpg",precioMin: "600",precioMax: "450", stock: 0},
+    {id: "9",nombre: "Horno Electrico SALVA",imagen: "imagenes/horno.jpg",precioMin: "600",precioMax: "550", stock: 1},
     {id: "10",nombre: "Fermentadora SALVA",imagen: "imagenes/fermentadora.jpg",precioMIn: "800",precioMax: "550", stock: 0},
     {id: "11",nombre: "Bancos de Acero Inoxidable ",imagen: "imagenes/bancos2.jpg",precioMIn: "100",precioMax: "150", stock: 2},
     {id: "12",nombre: "Bancos de Acero Inoxidable ",imagen: "imagenes/bancos3.jpg",precioMIn: "100",precioMax: "150", stock: 1},
